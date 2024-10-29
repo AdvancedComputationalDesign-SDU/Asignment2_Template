@@ -310,8 +310,7 @@ Assignment2/
 - **Matplotlib Documentation**: [https://matplotlib.org/stable/contents.html](https://matplotlib.org/stable/contents.html)
 - **NumPy Documentation**: [https://numpy.org/doc/](https://numpy.org/doc/)
 - **Plotly Documentation**: [https://plotly.com/python/](https://plotly.com/python/)
-- **L-Systems**:
-  - [Wiki](https://en.wikipedia.org/wiki/L-system)
+- **L-Systems**: [https://en.wikipedia.org/wiki/L-system](https://en.wikipedia.org/wiki/L-system)
 
 ---
 
