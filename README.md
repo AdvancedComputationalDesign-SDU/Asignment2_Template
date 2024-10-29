@@ -1,5 +1,7 @@
 # Assignment 2: Exploring Fractals through Recursive Geometric Patterns
 
+![](images/example.png)
+
 ## Objective
 
 In this assignment, you will explore the fascinating world of fractals using concepts of recursion and functional programming, building upon your knowledge of conditionals, iterations, and N-dimensional arrays. Your task is to create a Python script that generates complex fractal visualizations based on a custom L-system or Lindenmayer system in 2D, commonly used in game development and computer graphics for modeling natural phenomena like tree-like structures.
@@ -24,7 +26,6 @@ Your script should:
 - [Getting Started](#getting-started)
 - [Repository Structure](#repository-structure)
 - [Instructions](#instructions)
-- [Examples of Parameters to Explore](#examples-of-parameters-to-explore)
 - [Advanced Challenges (Optional for Extra Points)](#advanced-challenges-optional-for-extra-points)
 - [Submission Guidelines](#submission-guidelines)
 - [Evaluation Criteria](#evaluation-criteria)
@@ -96,7 +97,7 @@ For 3D visualization or advanced features, you may also need:
 
 ## Repository Structure
 
-'''
+```
 Assignment2/
 ├── README.md
 ├── DOCUMENTATION.md
@@ -108,9 +109,7 @@ Assignment2/
 │   ├── fractal4.png
 │   ├── fractal5.png
 │   └── (Additional images)
-├── docs/
-│   └── (Additional documentation)
-'''
+```
 
 - `README.md`: This file, containing an overview and instructions.
 - `code/`: Python script for fractal generation.
@@ -205,7 +204,7 @@ Assignment2/
 - **Visualizing in 3D**:
   - Use `mpl_toolkits.mplot3d` in Matplotlib:
 
-    '''python
+    ```python
     from mpl_toolkits.mplot3d import Axes3D
     import matplotlib.pyplot as plt
 
@@ -213,22 +212,22 @@ Assignment2/
     ax = fig.add_subplot(111, projection='3d')
     ax.plot(xs, ys, zs)
     plt.show()
-    '''
+    ```
 
   - Or use `plotly` for interactive 3D plots:
 
-    '''python
+    ```python
     import plotly.graph_objects as go
 
     fig = go.Figure(data=[go.Scatter3d(x=xs, y=ys, z=zs, mode='lines')])
     fig.show()
-    '''
+    ```
 
 ### Custom Color Schemes
 
 - **Color Based on Depth**:
 
-  '''python
+  ```python
   import matplotlib.pyplot as plt
 
   def get_color(depth, max_depth):
@@ -236,7 +235,7 @@ Assignment2/
 
   # Plot using the color
   color = get_color(current_depth, max_depth)
-  '''
+  ```
 
 - **Color Gradients**:
   - Use color maps to apply gradients along the lines.
@@ -248,12 +247,12 @@ Assignment2/
   - Introduce randomness in angles or lengths to create more natural-looking patterns.
   - Example:
 
-    '''python
+    ```python
     import random
 
     angle_change = random.uniform(20, 40)
     length_scaling = random.uniform(0.6, 0.8)
-    '''
+    ```
 
 - **Use Different Shapes**:
   - Instead of lines, use circles, ellipses, or polygons at recursion steps.
