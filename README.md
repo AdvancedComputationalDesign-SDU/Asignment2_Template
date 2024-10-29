@@ -1,6 +1,6 @@
 # Assignment 2: Exploring Fractals through Recursive Geometric Patterns
 
-![](images/example.png)
+![Example Fractal](images/example.png)
 
 ## Objective
 
