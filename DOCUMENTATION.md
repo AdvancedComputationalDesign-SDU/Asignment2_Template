@@ -79,7 +79,7 @@ Example:
 
 ### Fractal Pattern 1: Basic Fractal Tree
 
-![Fractal Tree](images/fractal_tree.png)
+![Fractal Tree](images/example.png)
 
 - **Parameters**:
   - `angle_change`: 30°
@@ -113,8 +113,6 @@ Example:
 
 - **Shapely Manual**: [https://shapely.readthedocs.io/en/stable/manual.html](https://shapely.readthedocs.io/en/stable/manual.html)
 - **Matplotlib Pyplot Tutorial**: [https://matplotlib.org/stable/tutorials/introductory/pyplot.html](https://matplotlib.org/stable/tutorials/introductory/pyplot.html)
-- **Understanding Recursion**: [https://realpython.com/python-thinking-recursively/](https://realpython.com/python-thinking-recursively/)
-- **Fractal Geometry**: [https://en.wikipedia.org/wiki/Fractal](https://en.wikipedia.org/wiki/Fractal)
 
 ---
 
