@@ -48,11 +48,6 @@ def generate_fractal(start_point, angle, length, depth, max_depth, angle_change,
     # Increment depth
     next_depth = depth + 1
 
-    # Optional: Incorporate randomness
-    # Uncomment the following lines to add randomness
-    # angle_change = random.uniform(angle_change - 5, angle_change + 5)
-    # length_scaling_factor = random.uniform(length_scaling_factor - 0.05, length_scaling_factor + 0.05)
-
     # Recursive calls for branches
     generate_fractal(end_point, angle + angle_change, new_length, next_depth, max_depth, angle_change, length_scaling_factor)
     generate_fractal(end_point, angle - angle_change, new_length, next_depth, max_depth, angle_change, length_scaling_factor)
@@ -61,7 +56,7 @@ def generate_fractal(start_point, angle, length, depth, max_depth, angle_change,
 if __name__ == "__main__":
     # Parameters
     start_point = (0, 0)
-    initial_angle = 90  # Facing upwards
+    initial_angle = 90
     initial_length = 100
     recursion_depth = 0
     max_recursion_depth = 5
